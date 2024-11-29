@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #f7f7f2;
+    color: #1e1e24;
+}
+header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+.logo{
+    color: #1e1e24;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.navmenu{
+    display: flex;
+}
+.navmenu a {
+    display: inline-block;
+    margin: 0 1.5rem;
+    color: #1e1e24;
+    font-weight: 500;
+    transition: all 0.6s;
+}
+.navmenu a:hover{
+    transform: translateY(-5px);
+}
+.home{
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 2rem 5rem 0 18rem;
+    gap: 1rem;
+    padding-left: 10%;
+}
+.home-img img {
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+    margin-left: 200px;
+}
+.home-text h2 {
+    font-size: 295%;
+    height: auto;
+}
+.home-text h3 {
+    position: relative;
+    padding-left: 6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.home-text h3::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #1e1e24;
+    left: 0;
+    top: 1rem;
+}
+.home-text p{
+    margin-bottom: 1px;
+}
+.socials-icons{
+    position: absolute;
+    top: 15%;
+    padding:  0rem;
+    display: flex;
+}
+.socials-icons i {
+    display: block;
+    margin-top: 275px;
+    color: #1e1e24;
+    font-size: 1.5rem;
+    transition: all 0.6s;
+}
+.socials-icons i:hover {
+    transform: rotate3d(0, 0, 1, 90deg);
+}
+.apaa{
+    display: flex;
+}
+.foto img{
+    width: 40%;
+    height: auto;
+    padding-left: 130px;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+.text{
+    margin-left: -450px;
+    margin-top: 100px;
+}
+.text h1{
+    color: black;
+    margin-right: 200px;
+    position: relative;
+    font-weight: bold;
+}
+.text h1::after{
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 2px;
+    background-color: darkblue;
+    margin-top: 50px;
+    margin-left: -155px;
+    padding-left: 50px;
+}
+.text p {
+    margin-top: 20px;
+    position: relative;
+    font-size: 25px;
+}
